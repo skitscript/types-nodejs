@@ -10,6 +10,11 @@ export type LocationEvent = {
   readonly type: `location`;
 
   /**
+   * The line from which the event originates.
+   */
+  readonly line: number;
+
+  /**
    * The name of the background to display.
    */
   readonly background: Identifier;
