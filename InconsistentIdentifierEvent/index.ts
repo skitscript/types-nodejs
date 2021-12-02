@@ -1,4 +1,4 @@
-import type { Identifier } from "../Identifier";
+import type { IdentifierReference } from "../IdentifierReference";
 
 /**
  * Two or more identifiers are different but normalize to the same value.
@@ -10,17 +10,12 @@ export type InconsistentIdentifierEvent = {
   readonly type: `inconsistentIdentifier`;
 
   /**
-   * The line from which the event originates.
-   */
-  readonly line: number;
-
-  /**
    * The first occurrence of the identifier.
    */
-  readonly first: Identifier;
+  readonly first: IdentifierReference;
 
   /**
    * The second occurrence of the identifier.
    */
-  readonly second: Identifier;
+  readonly second: IdentifierReference;
 };

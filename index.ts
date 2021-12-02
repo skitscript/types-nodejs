@@ -11,6 +11,7 @@ export { FlagClearCondition } from "./FlagClearCondition";
 export { FlagSetCondition } from "./FlagSetCondition";
 export { Formatted } from "./Formatted";
 export { Identifier } from "./Identifier";
+export { IdentifierReference } from "./IdentifierReference";
 export { InconsistentIdentifierEvent } from "./InconsistentIdentifierEvent";
 export { JumpEvent } from "./JumpEvent";
 export { LabelEvent } from "./LabelEvent";
