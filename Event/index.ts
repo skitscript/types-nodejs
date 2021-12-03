@@ -1,3 +1,4 @@
+import type { DuplicateIdentifierInListEvent } from "../DuplicateIdentifierInListEvent";
 import type { DuplicateLabelEvent } from "../DuplicateLabelEvent";
 import type { EmoteEvent } from "../EmoteEvent";
 import type { EntryAnimationEvent } from "../EntryAnimationEvent";
@@ -28,4 +29,5 @@ export type Event =
   | MenuOptionEvent
   | SpeakerEvent
   | UndefinedLabelEvent
-  | UnparsableLineEvent;
+  | UnparsableLineEvent
+  | DuplicateIdentifierInListEvent;

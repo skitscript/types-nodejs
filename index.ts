@@ -1,5 +1,6 @@
 export { Condition } from "./Condition";
 export { Document } from "./Document";
+export { DuplicateIdentifierInListEvent } from "./DuplicateIdentifierInListEvent";
 export { DuplicateLabelEvent } from "./DuplicateLabelEvent";
 export { EmoteEvent } from "./EmoteEvent";
 export { EntryAnimationEvent } from "./EntryAnimationEvent";
