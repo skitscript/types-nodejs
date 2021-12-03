@@ -50,6 +50,7 @@ import { Document } from "@skitscript/types-nodejs";
 
 - [Condition](./Condition/index.ts)
 - [Document](./Document/index.ts)
+- [DuplicateIdentifierInListEvent](./DuplicateIdentifierInListEvent/index.ts)
 - [DuplicateLabelEvent](./DuplicateLabelEvent/index.ts)
 - [EmoteEvent](./EmoteEvent/index.ts)
 - [EntryAnimationEvent](./EntryAnimationEvent/index.ts)
