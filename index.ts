@@ -1,3 +1,4 @@
+export { ClearEvent } from "./ClearEvent";
 export { Condition } from "./Condition";
 export { Document } from "./Document";
 export { DuplicateIdentifierInListEvent } from "./DuplicateIdentifierInListEvent";
@@ -20,6 +21,7 @@ export { LineEvent } from "./LineEvent";
 export { LocationEvent } from "./LocationEvent";
 export { MenuOptionEvent } from "./MenuOptionEvent";
 export { Run } from "./Run";
+export { SetEvent } from "./SetEvent";
 export { SomeFlagsClearCondition } from "./SomeFlagsClearCondition";
 export { SomeFlagsSetCondition } from "./SomeFlagsSetCondition";
 export { SpeakerEvent } from "./SpeakerEvent";

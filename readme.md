@@ -48,6 +48,7 @@ Import and use the exported types:
 import { Document } from "@skitscript/types-nodejs";
 ```
 
+- [ClearEvent](./ClearEvent/index.ts)
 - [Condition](./Condition/index.ts)
 - [Document](./Document/index.ts)
 - [DuplicateIdentifierInListEvent](./DuplicateIdentifierInListEvent/index.ts)
@@ -70,6 +71,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [LocationEvent](./LocationEvent/index.ts)
 - [MenuOptionEvent](./MenuOptionEvent/index.ts)
 - [Run](./Run/index.ts)
+- [SetEvent](./SetEvent/index.ts)
 - [SomeFlagsClearCondition](./SomeFlagsClearCondition/index.ts)
 - [SomeFlagsSetCondition](./SomeFlagsSetCondition/index.ts)
 - [SpeakerEvent](./SpeakerEvent/index.ts)
