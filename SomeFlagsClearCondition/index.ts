@@ -10,7 +10,7 @@ export type SomeFlagsClearCondition = {
   readonly type: `someFlagsClear`;
 
   /**
-   * The names of the flags which must be clear for the condition to pass.
+   * The names of the flags of which at least one must be clear for the condition to pass.
    */
   readonly flags: ReadonlyArray<Identifier>;
 };
