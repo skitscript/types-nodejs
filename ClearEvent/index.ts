@@ -10,6 +10,11 @@ export type ClearEvent = {
   readonly type: `clear`;
 
   /**
+   * The line from which the event originates.
+   */
+  readonly line: number;
+
+  /**
    * The names of the flags which are to be cleared.
    */
   readonly flags: ReadonlyArray<Identifier>;
