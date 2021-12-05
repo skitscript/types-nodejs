@@ -1,7 +1,7 @@
 import type { Identifier } from "..";
 
 /**
- * Specifies that one or more flags are to be set.
+ * Specifies that a flag is to be set.
  */
 export type SetEvent = {
   /**
@@ -15,7 +15,7 @@ export type SetEvent = {
   readonly line: number;
 
   /**
-   * The names of the flags which are to be set.
+   * The names of the flag which is to be set.
    */
-  readonly flags: ReadonlyArray<Identifier>;
+  readonly flag: Identifier;
 };
