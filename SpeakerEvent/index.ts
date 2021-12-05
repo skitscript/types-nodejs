@@ -15,7 +15,7 @@ export type SpeakerEvent = {
   readonly line: number;
 
   /**
-   * The names of the speaking characters
+   * The names of the speaking characters.
    */
   readonly characters: ReadonlyArray<Identifier>;
 };
