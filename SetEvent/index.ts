@@ -10,6 +10,11 @@ export type SetEvent = {
   readonly type: `set`;
 
   /**
+   * The line from which the event originates.
+   */
+  readonly line: number;
+
+  /**
    * The names of the flags which are to be set.
    */
   readonly flags: ReadonlyArray<Identifier>;
