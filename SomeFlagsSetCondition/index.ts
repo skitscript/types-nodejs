@@ -10,7 +10,7 @@ export type SomeFlagsSetCondition = {
   readonly type: `someFlagsSet`;
 
   /**
-   * The names of the flags which must be set for the condition to pass.
+   * The names of the flags of which at least one must be set for the condition to pass.
    */
   readonly flags: ReadonlyArray<Identifier>;
 };
