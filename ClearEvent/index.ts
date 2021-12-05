@@ -1,7 +1,7 @@
 import type { Identifier } from "..";
 
 /**
- * Specifies that one or more flags are to be cleared.
+ * Specifies that a flag is to be cleared.
  */
 export type ClearEvent = {
   /**
@@ -15,7 +15,7 @@ export type ClearEvent = {
   readonly line: number;
 
   /**
-   * The names of the flags which are to be cleared.
+   * The name of the flag which is to be cleared.
    */
-  readonly flags: ReadonlyArray<Identifier>;
+  readonly flag: Identifier;
 };
