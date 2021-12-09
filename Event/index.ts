@@ -4,6 +4,8 @@ import type { DuplicateLabelEvent } from "../DuplicateLabelEvent";
 import type { EmoteEvent } from "../EmoteEvent";
 import type { EntryAnimationEvent } from "../EntryAnimationEvent";
 import type { ExitAnimationEvent } from "../ExitAnimationEvent";
+import type { FlagNeverReferencedEvent } from "../FlagNeverReferencedEvent";
+import type { FlagNeverSetEvent } from "../FlagNeverSetEvent";
 import type { IncompleteEscapeSequenceEvent } from "../IncompleteEscapeSequenceEvent";
 import type { InconsistentIdentifierEvent } from "../InconsistentIdentifierEvent";
 import type { InvalidEscapeSequenceEvent } from "../InvalidEscapeSequenceEvent";
@@ -48,4 +50,6 @@ export type Event =
   | IncompleteEscapeSequenceEvent
   | InvalidEscapeSequenceEvent
   | UnreachableEvent
-  | UnreferencedLabelEvent;
+  | UnreferencedLabelEvent
+  | FlagNeverReferencedEvent
+  | FlagNeverSetEvent;

@@ -10,6 +10,8 @@ export { EveryFlagClearCondition } from "./EveryFlagClearCondition";
 export { EveryFlagSetCondition } from "./EveryFlagSetCondition";
 export { ExitAnimationEvent } from "./ExitAnimationEvent";
 export { FlagClearCondition } from "./FlagClearCondition";
+export { FlagNeverReferencedEvent } from "./FlagNeverReferencedEvent";
+export { FlagNeverSetEvent } from "./FlagNeverSetEvent";
 export { FlagSetCondition } from "./FlagSetCondition";
 export { Formatted } from "./Formatted";
 export { Identifier } from "./Identifier";
