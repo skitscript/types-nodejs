@@ -17,6 +17,7 @@ import type { SpeakerEvent } from "../SpeakerEvent";
 import type { UndefinedLabelEvent } from "../UndefinedLabelEvent";
 import type { UnparsableEvent } from "../UnparsableEvent";
 import type { UnreachableEvent } from "../UnreachableEvent";
+import type { UnreferencedLabelEvent } from "../UnreferencedLabelEvent";
 import type { UnterminatedBoldEvent } from "../UnterminatedBoldEvent";
 import type { UnterminatedCodeEvent } from "../UnterminatedCodeEvent";
 import type { UnterminatedItalicEvent } from "../UnterminatedItalicEvent";
@@ -46,4 +47,5 @@ export type Event =
   | UnterminatedItalicEvent
   | IncompleteEscapeSequenceEvent
   | InvalidEscapeSequenceEvent
-  | UnreachableEvent;
+  | UnreachableEvent
+  | UnreferencedLabelEvent;

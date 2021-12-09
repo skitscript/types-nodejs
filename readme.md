@@ -80,6 +80,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [UndefinedLabelEvent](./UndefinedLabelEvent/index.ts)
 - [UnparsableEvent](./UnparsableEvent/index.ts)
 - [UnreachableEvent](./UnreachableEvent/index.ts)
+- [UnreferencedLabelEvent](./UnreferencedLabelEvent/index.ts)
 - [UnterminatedBoldEvent](./UnterminatedBoldEvent/index.ts)
 - [UnterminatedCodeEvent](./UnterminatedCodeEvent/index.ts)
 - [UnterminatedItalicEvent](./UnterminatedItalicEvent/index.ts)

@@ -30,6 +30,7 @@ export { SpeakerEvent } from "./SpeakerEvent";
 export { UndefinedLabelEvent } from "./UndefinedLabelEvent";
 export { UnparsableEvent } from "./UnparsableEvent";
 export { UnreachableEvent } from "./UnreachableEvent";
+export { UnreferencedLabelEvent } from "./UnreferencedLabelEvent";
 export { UnterminatedBoldEvent } from "./UnterminatedBoldEvent";
 export { UnterminatedCodeEvent } from "./UnterminatedCodeEvent";
 export { UnterminatedItalicEvent } from "./UnterminatedItalicEvent";
