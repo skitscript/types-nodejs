@@ -29,6 +29,7 @@ export { SomeFlagsSetCondition } from "./SomeFlagsSetCondition";
 export { SpeakerEvent } from "./SpeakerEvent";
 export { UndefinedLabelEvent } from "./UndefinedLabelEvent";
 export { UnparsableLineEvent } from "./UnparsableLineEvent";
+export { UnreachableEvent } from "./UnreachableEvent";
 export { UnterminatedBoldEvent } from "./UnterminatedBoldEvent";
 export { UnterminatedCodeEvent } from "./UnterminatedCodeEvent";
 export { UnterminatedItalicEvent } from "./UnterminatedItalicEvent";
