@@ -1,11 +1,11 @@
 /**
  * A line was not in any known format.
  */
-export type UnparsableLineEvent = {
+export type UnparsableEvent = {
   /**
    * Identifies the type of event.
    */
-  readonly type: `unparsableLine`;
+  readonly type: `unparsable`;
 
   /**
    * The line from which the event originates.
