@@ -60,6 +60,8 @@ import { Document } from "@skitscript/types-nodejs";
 - [EveryFlagSetCondition](./EveryFlagSetCondition/index.ts)
 - [ExitAnimationEvent](./ExitAnimationEvent/index.ts)
 - [FlagClearCondition](./FlagClearCondition/index.ts)
+- [FlagNeverReferencedEvent](./FlagNeverReferencedEvent/index.ts)
+- [FlagNeverSetEvent](./FlagNeverSetEvent/index.ts)
 - [FlagSetCondition](./FlagSetCondition/index.ts)
 - [Formatted](./Formatted/index.ts)
 - [Identifier](./Identifier/index.ts)
