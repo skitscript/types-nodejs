@@ -6,7 +6,7 @@ export type InvalidEscapeSequenceEvent = {
   /**
    * Identifies the type of event.
    */
-  readonly type: `incompleteEscapeSequence`;
+  readonly type: `invalidEscapeSequence`;
 
   /**
    * The line from which the event originates.
