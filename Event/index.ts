@@ -2,6 +2,7 @@ import type { ClearEvent } from "../ClearEvent";
 import type { DuplicateIdentifierInListEvent } from "../DuplicateIdentifierInListEvent";
 import type { DuplicateLabelEvent } from "../DuplicateLabelEvent";
 import type { EmoteEvent } from "../EmoteEvent";
+import type { EmptyLabelEvent } from "../EmptyLabelEvent";
 import type { EntryAnimationEvent } from "../EntryAnimationEvent";
 import type { ExitAnimationEvent } from "../ExitAnimationEvent";
 import type { FlagNeverReferencedEvent } from "../FlagNeverReferencedEvent";
@@ -52,4 +53,5 @@ export type Event =
   | UnreachableEvent
   | UnreferencedLabelEvent
   | FlagNeverReferencedEvent
-  | FlagNeverSetEvent;
+  | FlagNeverSetEvent
+  | EmptyLabelEvent;

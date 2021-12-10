@@ -54,6 +54,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [DuplicateIdentifierInListEvent](./DuplicateIdentifierInListEvent/index.ts)
 - [DuplicateLabelEvent](./DuplicateLabelEvent/index.ts)
 - [EmoteEvent](./EmoteEvent/index.ts)
+- [EmptyLabelEvent](./EmptyLabelEvent/index.ts)
 - [EntryAnimationEvent](./EntryAnimationEvent/index.ts)
 - [Event](./Event/index.ts)
 - [EveryFlagClearCondition](./EveryFlagClearCondition/index.ts)

@@ -4,6 +4,7 @@ export { Document } from "./Document";
 export { DuplicateIdentifierInListEvent } from "./DuplicateIdentifierInListEvent";
 export { DuplicateLabelEvent } from "./DuplicateLabelEvent";
 export { EmoteEvent } from "./EmoteEvent";
+export { EmptyLabelEvent } from "./EmptyLabelEvent";
 export { EntryAnimationEvent } from "./EntryAnimationEvent";
 export { Event } from "./Event";
 export { EveryFlagClearCondition } from "./EveryFlagClearCondition";
