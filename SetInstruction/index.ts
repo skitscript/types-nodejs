@@ -3,14 +3,14 @@ import type { Identifier } from "..";
 /**
  * Specifies that a flag is to be set.
  */
-export type SetStatement = {
+export type SetInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `set`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

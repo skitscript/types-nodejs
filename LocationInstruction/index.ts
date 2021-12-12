@@ -3,14 +3,14 @@ import type { Identifier } from "../Identifier";
 /**
  * Specifies a change of location.
  */
-export type LocationStatement = {
+export type LocationInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `location`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

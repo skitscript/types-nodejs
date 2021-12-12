@@ -1,16 +1,16 @@
 import type { Identifier } from "../Identifier";
 
 /**
- * Specifies that a character is to play an entry animation.
+ * Specifies that a character is to play an exit animation.
  */
-export type EntryAnimationStatement = {
+export type ExitAnimationInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
-  readonly type: `entryAnimation`;
+  readonly type: `exitAnimation`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

@@ -3,14 +3,14 @@ import type { Identifier } from "../Identifier";
 /**
  * Specifies a change of speaker.
  */
-export type SpeakerStatement = {
+export type SpeakerInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `speaker`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

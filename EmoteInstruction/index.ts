@@ -3,14 +3,14 @@ import type { Identifier } from "../Identifier";
 /**
  * Specifies that a character is to display an emote.
  */
-export type EmoteStatement = {
+export type EmoteInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `emote`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

@@ -4,14 +4,14 @@ import type { Identifier } from "../Identifier";
 /**
  * Specifies that the interpreter is to jump to a label.
  */
-export type JumpStatement = {
+export type JumpInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `jump`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 
