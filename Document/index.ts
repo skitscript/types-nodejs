@@ -1,11 +1,7 @@
-import type { Event } from "../Event";
+import type { InvalidDocument } from "../InvalidDocument";
+import type { ValidDocument } from "../ValidDocument";
 
 /**
- * A Skitscript document.
+ * The result of attempting to parse a document.  This may be valid or invalid.
  */
-export type Document = {
-  /**
-   * The events parsed from the document.
-   */
-  readonly events: ReadonlyArray<Event>;
-};
+export type Document = InvalidDocument | ValidDocument;
