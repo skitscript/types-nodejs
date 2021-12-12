@@ -22,7 +22,6 @@ export { InconsistentIdentifierWarning } from "./InconsistentIdentifierWarning";
 export { InvalidDocument } from "./InvalidDocument";
 export { InvalidEscapeSequenceError } from "./InvalidEscapeSequenceError";
 export { JumpInstruction } from "./JumpInstruction";
-export { LabelInstruction } from "./LabelInstruction";
 export { LineInstruction } from "./LineInstruction";
 export { LocationInstruction } from "./LocationInstruction";
 export { MenuOptionInstruction } from "./MenuOptionInstruction";

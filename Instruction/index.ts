@@ -3,7 +3,6 @@ import type { EmoteInstruction } from "../EmoteInstruction";
 import type { EntryAnimationInstruction } from "../EntryAnimationInstruction";
 import type { ExitAnimationInstruction } from "../ExitAnimationInstruction";
 import type { JumpInstruction } from "../JumpInstruction";
-import type { LabelInstruction } from "../LabelInstruction";
 import type { LineInstruction } from "../LineInstruction";
 import type { LocationInstruction } from "../LocationInstruction";
 import type { MenuOptionInstruction } from "../MenuOptionInstruction";
@@ -19,7 +18,6 @@ export type Instruction =
   | EntryAnimationInstruction
   | ExitAnimationInstruction
   | JumpInstruction
-  | LabelInstruction
   | LineInstruction
   | LocationInstruction
   | MenuOptionInstruction

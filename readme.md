@@ -72,7 +72,6 @@ import { Document } from "@skitscript/types-nodejs";
 - [InvalidDocument](./InvalidDocument/index.ts)
 - [InvalidEscapeSequenceError](./InvalidEscapeSequenceError/index.ts)
 - [JumpInstruction](./JumpInstruction/index.ts)
-- [LabelInstruction](./LabelInstruction/index.ts)
 - [LineInstruction](./LineInstruction/index.ts)
 - [LocationInstruction](./LocationInstruction/index.ts)
 - [MenuOptionInstruction](./MenuOptionInstruction/index.ts)
