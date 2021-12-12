@@ -27,6 +27,11 @@ export type MenuOptionInstruction = {
   readonly label: Identifier;
 
   /**
+   * The statement index to which to jump when the menu option is selected.
+   */
+  readonly statementIndex: number;
+
+  /**
    * The condition which must be met for the menu option to be shown; when null,
    * the menu option is always shown.
    */

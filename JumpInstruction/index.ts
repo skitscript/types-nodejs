@@ -21,6 +21,11 @@ export type JumpInstruction = {
   readonly label: Identifier;
 
   /**
+   * The statement index to which to jump.
+   */
+  readonly statementIndex: number;
+
+  /**
    * The condition which must be met for the jump to occur; when null, the jump
    * is unconditional.
    */
