@@ -3,14 +3,14 @@ import type { Identifier } from "..";
 /**
  * Specifies that a flag is to be cleared.
  */
-export type ClearStatement = {
+export type ClearInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `clear`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 

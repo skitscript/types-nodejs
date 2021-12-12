@@ -1,4 +1,4 @@
-import type { Statement } from "../Statement";
+import type { Instruction } from "../Instruction";
 import type { Warning } from "../Warning";
 
 /**
@@ -11,9 +11,9 @@ export type ValidDocument = {
   readonly type: `valid`;
 
   /**
-   * The statements parsed from the document.
+   * The instructions parsed from the document.
    */
-  readonly statements: ReadonlyArray<Statement>;
+  readonly instructions: ReadonlyArray<Instruction>;
 
   /**
    * The warnings parsed from the document.

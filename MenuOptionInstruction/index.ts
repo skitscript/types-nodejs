@@ -5,14 +5,14 @@ import type { Identifier } from "../Identifier";
 /**
  * Specifies that a menu option is to be appended to the most recent line.
  */
-export type MenuOptionStatement = {
+export type MenuOptionInstruction = {
   /**
-   * Identifies the type of statement.
+   * Identifies the type of instruction.
    */
   readonly type: `menuOption`;
 
   /**
-   * The line from which the statement originates.
+   * The line from which the instruction originates.
    */
   readonly line: number;
 
