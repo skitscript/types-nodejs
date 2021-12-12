@@ -1,3 +1,4 @@
+import type { InvalidEscapeSequenceError } from "..";
 import type { DuplicateLabelError } from "../DuplicateLabelError";
 import type { IncompleteEscapeSequenceError } from "../IncompleteEscapeSequenceError";
 import type { UndefinedLabelError } from "../UndefinedLabelError";
@@ -12,6 +13,7 @@ import type { UnterminatedItalicError } from "../UnterminatedItalicError";
 export type Error =
   | DuplicateLabelError
   | IncompleteEscapeSequenceError
+  | InvalidEscapeSequenceError
   | UndefinedLabelError
   | UnparsableError
   | UnterminatedBoldError
