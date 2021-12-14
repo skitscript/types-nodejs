@@ -1,3 +1,4 @@
+import type { IdentifierInstance } from "../IdentifierInstance";
 import type { Instruction } from "../Instruction";
 import type { Warning } from "../Warning";
 
@@ -19,4 +20,9 @@ export type ValidDocument = {
    * The warnings parsed from the document.
    */
   readonly warnings: ReadonlyArray<Warning>;
+
+  /**
+   * Every instance of an identifier parsed from the document.
+   */
+  readonly identifierInstances: ReadonlyArray<IdentifierInstance>;
 };
