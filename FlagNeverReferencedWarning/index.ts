@@ -17,5 +17,5 @@ export type FlagNeverReferencedWarning = {
   /**
    * The name of the flag.
    */
-  readonly name: Identifier;
+  readonly flag: Identifier;
 };
