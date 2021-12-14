@@ -17,5 +17,5 @@ export type FlagNeverSetWarning = {
   /**
    * The name of the flag.
    */
-  readonly name: Identifier;
+  readonly flag: Identifier;
 };
