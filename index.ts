@@ -16,6 +16,7 @@ export { FlagNeverSetWarning } from "./FlagNeverSetWarning";
 export { FlagSetCondition } from "./FlagSetCondition";
 export { Formatted } from "./Formatted";
 export { Identifier } from "./Identifier";
+export { IdentifierContext } from "./IdentifierContext";
 export { IdentifierInstance } from "./IdentifierInstance";
 export { IdentifierReference } from "./IdentifierReference";
 export { IdentifierType } from "./IdentifierType";

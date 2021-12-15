@@ -66,6 +66,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [FlagSetCondition](./FlagSetCondition/index.ts)
 - [Formatted](./Formatted/index.ts)
 - [Identifier](./Identifier/index.ts)
+- [IdentifierContext](./IdentifierContext/index.ts)
 - [IdentifierInstance](./IdentifierInstance/index.ts)
 - [IdentifierReference](./IdentifierReference/index.ts)
 - [IdentifierType](./IdentifierType/index.ts)
