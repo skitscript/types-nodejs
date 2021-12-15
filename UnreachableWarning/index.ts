@@ -11,4 +11,14 @@ export type UnreachableWarning = {
    * The line from which the warning originates.
    */
   readonly line: number;
+
+  /**
+   * The column on which the warning started in the original document.
+   */
+  readonly fromColumn: number;
+
+  /**
+   * The column on which the warning ended in the original document.
+   */
+  readonly toColumn: number;
 };
