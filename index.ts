@@ -25,6 +25,8 @@ export { IdentifierReference } from "./IdentifierReference";
 export { IdentifierType } from "./IdentifierType";
 export { IncompleteEscapeSequenceError } from "./IncompleteEscapeSequenceError";
 export { InconsistentIdentifierWarning } from "./InconsistentIdentifierWarning";
+export { InterpreterState } from "./InterpreterState";
+export { InterpreterStateCharacter } from "./InterpreterStateCharacter";
 export { InterpreterStateCharacterState } from "./InterpreterStateCharacterState";
 export { InterpreterStateInteraction } from "./InterpreterStateInteraction";
 export { InterpreterStateRun } from "./InterpreterStateRun";
