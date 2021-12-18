@@ -1,4 +1,4 @@
-import type { InvalidEscapeSequenceError } from "..";
+import type { InvalidEscapeSequenceError } from "../InvalidEscapeSequenceError";
 import type { DuplicateLabelError } from "../DuplicateLabelError";
 import type { IncompleteEscapeSequenceError } from "../IncompleteEscapeSequenceError";
 import type { UndefinedLabelError } from "../UndefinedLabelError";

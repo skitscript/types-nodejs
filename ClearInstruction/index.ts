@@ -1,4 +1,4 @@
-import type { Identifier } from "..";
+import type { Identifier } from "../Identifier";
 
 /**
  * Specifies that a flag is to be cleared.

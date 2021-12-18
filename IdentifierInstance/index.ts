@@ -1,4 +1,4 @@
-import type { IdentifierReference } from "..";
+import type { IdentifierReference } from "../IdentifierReference";
 import type { IdentifierContext } from "../IdentifierContext";
 import type { IdentifierType } from "../IdentifierType";
 
