@@ -1,4 +1,4 @@
-import type { Identifier } from "..";
+import type { Identifier } from "../Identifier";
 
 /**
  * A reference to an identifier on a specific line.
