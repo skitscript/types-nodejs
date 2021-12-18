@@ -75,6 +75,8 @@ import { Document } from "@skitscript/types-nodejs";
 - [IdentifierType](./IdentifierType/index.ts)
 - [IncompleteEscapeSequenceError](./IncompleteEscapeSequenceError/index.ts)
 - [InconsistentIdentifierWarning](./InconsistentIdentifierWarning/index.ts)
+- [InterpreterState](./InterpreterState/index.ts)
+- [InterpreterStateCharacter](./InterpreterStateCharacter/index.ts)
 - [InterpreterStateCharacterState](./InterpreterStateCharacterState/index.ts)
 - [InterpreterStateInteraction](./InterpreterStateInteraction/index.ts)
 - [InterpreterStateRun](./InterpreterStateRun/index.ts)
