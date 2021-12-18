@@ -75,6 +75,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [IncompleteEscapeSequenceError](./IncompleteEscapeSequenceError/index.ts)
 - [InconsistentIdentifierWarning](./InconsistentIdentifierWarning/index.ts)
 - [InterpreterStateCharacterState](./InterpreterStateCharacterState/index.ts)
+- [InterpreterStateRun](./InterpreterStateRun/index.ts)
 - [InvalidDocument](./InvalidDocument/index.ts)
 - [InvalidEscapeSequenceError](./InvalidEscapeSequenceError/index.ts)
 - [JumpInstruction](./JumpInstruction/index.ts)
