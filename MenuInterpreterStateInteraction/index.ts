@@ -1,4 +1,4 @@
-import type { MenuOptionInstruction } from "../MenuOptionInstruction";
+import type { MenuInterpreterStateInteractionOption } from "../MenuInterpreterStateInteractionOption";
 
 /**
  * The user must select an option from a menu.
@@ -12,5 +12,5 @@ export type MenuInterpreterStateInteraction = {
   /**
    * The options which are listed in the menu.
    */
-  readonly options: ReadonlyArray<MenuOptionInstruction>;
+  readonly options: ReadonlyArray<MenuInterpreterStateInteractionOption>;
 };
