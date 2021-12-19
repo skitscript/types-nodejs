@@ -7,7 +7,7 @@ export type ExitingInterpreterStateCharacterState = {
   /**
    * Identifies the type of character state.
    */
-  readonly type: `exit`;
+  readonly type: `exiting`;
 
   /**
    * The name of the exit animation.
