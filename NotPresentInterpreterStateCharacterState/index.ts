@@ -1,9 +1,9 @@
 /**
  * A character is currently not visible.
  */
-export type NonPresentMapStateCharacterState = {
+export type NotPresentInterpreterStateCharacterState = {
   /**
    * Identifies the type of character state.
    */
-  readonly type: `nonPresent`;
+  readonly type: `notPresent`;
 };
