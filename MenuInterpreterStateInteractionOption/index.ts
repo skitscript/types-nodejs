@@ -10,7 +10,7 @@ export type MenuInterpreterStateInteractionOption = {
   readonly content: ReadonlyArray<InterpreterStateRun>;
 
   /**
-   * The statement index to which to jump when the menu option is selected.
+   * The instruction index to which to jump when the menu option is selected.
    */
-  readonly statementIndex: number;
+  readonly instructionIndex: number;
 };

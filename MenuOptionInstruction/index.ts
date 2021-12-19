@@ -27,9 +27,9 @@ export type MenuOptionInstruction = {
   readonly label: Identifier;
 
   /**
-   * The statement index to which to jump when the menu option is selected.
+   * The instruction index to which to jump when the menu option is selected.
    */
-  readonly statementIndex: number;
+  readonly instructionIndex: number;
 
   /**
    * The condition which must be met for the menu option to be shown; when null,
