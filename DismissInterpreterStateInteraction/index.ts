@@ -9,7 +9,7 @@ export type DismissInterpreterStateInteraction = {
   readonly type: `dismiss`;
 
   /**
-   * The statement index to which to jump when the current state is dismissed.
+   * The instruction index to which to jump when the current state is dismissed.
    */
-  readonly statementIndex: number;
+  readonly instructionIndex: number;
 };
