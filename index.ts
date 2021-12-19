@@ -56,8 +56,8 @@ export { MenuInterpreterStateInteractionOption } from "./MenuInterpreterStateInt
 export { MenuMapStateInteraction } from "./MenuMapStateInteraction";
 export { MenuMapStateInteractionOption } from "./MenuMapStateInteractionOption";
 export { MenuOptionInstruction } from "./MenuOptionInstruction";
-export { NonPresentInterpreterStateCharacterState } from "./NonPresentInterpreterStateCharacterState";
-export { NonPresentMapStateCharacterState } from "./NonPresentMapStateCharacterState";
+export { NotPresentInterpreterStateCharacterState } from "./NotPresentInterpreterStateCharacterState";
+export { NotPresentMapStateCharacterState } from "./NotPresentMapStateCharacterState";
 export { PresentInterpreterStateCharacterState } from "./PresentInterpreterStateCharacterState";
 export { PresentMapStateCharacterState } from "./PresentMapStateCharacterState";
 export { Run } from "./Run";
