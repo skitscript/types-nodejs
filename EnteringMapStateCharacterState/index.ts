@@ -1,5 +1,3 @@
-import type { Identifier } from "../Identifier";
-
 /**
  * A character is currently playing an entry animation.
  */
@@ -12,5 +10,5 @@ export type EnteringMapStateCharacterState = {
   /**
    * The name of the entry animation.
    */
-  readonly animation: Identifier;
+  readonly animation: string;
 };
