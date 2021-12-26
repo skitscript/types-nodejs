@@ -95,6 +95,7 @@ import { Document } from "@skitscript/types-nodejs";
 - [LineInstruction](./LineInstruction/index.ts)
 - [LocationInstruction](./LocationInstruction/index.ts)
 - [Map](./Map/index.ts)
+- [MapCharacter](./MapCharacter/index.ts)
 - [MapError](./MapError/index.ts)
 - [MapState](./MapState/index.ts)
 - [MapStateCharacter](./MapStateCharacter/index.ts)

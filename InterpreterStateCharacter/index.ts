@@ -7,7 +7,12 @@ export type InterpreterStateCharacter = {
   /**
    * The (normalized) name of the character.
    */
-  readonly character: string;
+  readonly normalized: string;
+
+  /**
+   * The (verbatim) name of the character.
+   */
+  readonly verbatim: string;
 
   /**
    * The (normalized) name of the emote the character is currently displaying.

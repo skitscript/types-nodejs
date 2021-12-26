@@ -45,6 +45,7 @@ export { JumpInstruction } from "./JumpInstruction";
 export { LineInstruction } from "./LineInstruction";
 export { LocationInstruction } from "./LocationInstruction";
 export { Map } from "./Map";
+export { MapCharacter } from "./MapCharacter";
 export { MapError } from "./MapError";
 export { MapState } from "./MapState";
 export { MapStateCharacter } from "./MapStateCharacter";
