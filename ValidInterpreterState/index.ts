@@ -23,9 +23,9 @@ export type ValidInterpreterState = {
   readonly characters: ReadonlyArray<InterpreterStateCharacter>;
 
   /**
-   * The (verbatim) names of the characters which speak the current line/present
-   * the current menu.  This may include characters which are never or not
-   * currently visible.
+   * The (normalized) names of the characters which speak the current
+   * line/present the current menu.  This may include characters which are never
+   * or not currently visible.
    */
   readonly speakers: ReadonlyArray<string>;
 

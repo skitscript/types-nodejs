@@ -7,14 +7,16 @@ import type { MapStateRun } from "../MapStateRun";
  */
 export type MapState = {
   /**
-   * The states of the characters.
+   * The states of the characters, in the same order as the array of characters
+   * in the mapping result.  This may include characters which are never
+   * visible.
    */
   readonly characters: ReadonlyArray<MapStateCharacter>;
 
   /**
-   * The (verbatim) names of the characters which speak the current line/present
-   * the current menu.  This may include characters which are never or not
-   * currently visible.
+   * The (normalized) names of the characters which speak the current
+   * line/present the current menu.  This may include characters which are never
+   * or not currently visible.
    */
   readonly speakers: ReadonlyArray<string>;
 

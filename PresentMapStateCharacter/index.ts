@@ -9,11 +9,6 @@ export type PresentMapStateCharacter = {
   readonly type: `present`;
 
   /**
-   * The (normalized) name of the character.
-   */
-  readonly character: string;
-
-  /**
    * The (normalized) name of the emote the character is currently displaying.
    */
   readonly emote: string;
