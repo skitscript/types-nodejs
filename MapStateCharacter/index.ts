@@ -1,21 +1,13 @@
-import type { MapStateCharacterState } from "../MapStateCharacterState";
+import type { EnteringMapStateCharacter } from "../EnteringMapStateCharacter";
+import type { ExitingMapStateCharacter } from "../ExitingMapStateCharacter";
+import type { NotPresentMapStateCharacter } from "../NotPresentMapStateCharacter";
+import type { PresentMapStateCharacter } from "../PresentMapStateCharacter";
 
 /**
  * A character within the result of mapping a parsed document.
  */
-export type MapStateCharacter = {
-  /**
-   * The (normalized) name of the character.
-   */
-  readonly character: string;
-
-  /**
-   * The (normalized) name of the emote the character is currently displaying.
-   */
-  readonly emote: string;
-
-  /**
-   * The state of the character.
-   */
-  readonly state: MapStateCharacterState;
-};
+export type MapStateCharacter =
+  | NotPresentMapStateCharacter
+  | EnteringMapStateCharacter
+  | PresentMapStateCharacter
+  | ExitingMapStateCharacter;
