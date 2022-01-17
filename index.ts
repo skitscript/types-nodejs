@@ -1,3 +1,4 @@
+export { Archive } from "./Archive";
 export { ClearInstruction } from "./ClearInstruction";
 export { Condition } from "./Condition";
 export { DismissInterpreterStateInteraction } from "./DismissInterpreterStateInteraction";
@@ -16,6 +17,7 @@ export { EveryFlagSetCondition } from "./EveryFlagSetCondition";
 export { ExitAnimationInstruction } from "./ExitAnimationInstruction";
 export { ExitingInterpreterStateCharacterState } from "./ExitingInterpreterStateCharacterState";
 export { ExitingMapStateCharacter } from "./ExitingMapStateCharacter";
+export { File } from "./File";
 export { FlagClearCondition } from "./FlagClearCondition";
 export { FlagNeverReferencedWarning } from "./FlagNeverReferencedWarning";
 export { FlagNeverSetWarning } from "./FlagNeverSetWarning";
