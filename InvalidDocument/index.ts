@@ -1,3 +1,4 @@
+import type { IdentifierInstance } from "../IdentifierInstance";
 import type { Error } from "../Error";
 
 /**
@@ -13,4 +14,9 @@ export type InvalidDocument = {
    * The error parsed from the document.
    */
   readonly error: Error;
+
+  /**
+   * Every instance of an identifier parsed from the document.
+   */
+  readonly identifierInstances: ReadonlyArray<IdentifierInstance>;
 };
