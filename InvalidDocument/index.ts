@@ -1,5 +1,6 @@
 import type { IdentifierInstance } from "../IdentifierInstance";
 import type { Error } from "../Error";
+import type { Warning } from "../Warning";
 
 /**
  * The result of parsing an invalid document.
@@ -11,9 +12,14 @@ export type InvalidDocument = {
   readonly type: `invalid`;
 
   /**
-   * The error parsed from the document.
+   * The errors parsed from the document.
    */
-  readonly error: Error;
+  readonly errors: ReadonlyArray<Error>;
+
+  /**
+   * The warnings parsed from the document.
+   */
+  readonly warnings: ReadonlyArray<Warning>;
 
   /**
    * Every instance of an identifier parsed from the document.
