@@ -1,24 +1,24 @@
 /**
  * An identifier, as parsed from a document.
  */
-export type Identifier = {
+export interface Identifier {
   /**
    * The identifier's exact text as written in the original document.
    */
-  readonly verbatim: string;
+  readonly verbatim: string
 
   /**
    * The normalized identifier as parsed from the document.
    */
-  readonly normalized: string;
+  readonly normalized: string
 
   /**
    * The column on which the identifier started in the original document.
    */
-  readonly fromColumn: number;
+  readonly fromColumn: number
 
   /**
    * The column on which the identifier ended in the original document.
    */
-  readonly toColumn: number;
-};
+  readonly toColumn: number
+}

@@ -1,5 +1,5 @@
-import type { DismissInterpreterStateInteraction } from "../DismissInterpreterStateInteraction";
-import type { MenuInterpreterStateInteraction } from "../MenuInterpreterStateInteraction";
+import type { DismissInterpreterStateInteraction } from '../DismissInterpreterStateInteraction'
+import type { MenuInterpreterStateInteraction } from '../MenuInterpreterStateInteraction'
 
 /**
  * Describes how the user interacts with the result of interpreting a parsed
@@ -7,4 +7,4 @@ import type { MenuInterpreterStateInteraction } from "../MenuInterpreterStateInt
  */
 export type InterpreterStateInteraction =
   | DismissInterpreterStateInteraction
-  | MenuInterpreterStateInteraction;
+  | MenuInterpreterStateInteraction

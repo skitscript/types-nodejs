@@ -1,21 +1,21 @@
-import type { Identifier } from "../Identifier";
+import type { Identifier } from '../Identifier'
 
 /**
  * Specifies that a flag is to be set.
  */
-export type SetInstruction = {
+export interface SetInstruction {
   /**
    * Identifies the type of instruction.
    */
-  readonly type: `set`;
+  readonly type: 'set'
 
   /**
    * The line from which the instruction originates.
    */
-  readonly line: number;
+  readonly line: number
 
   /**
    * The names of the flag which is to be set.
    */
-  readonly flag: Identifier;
-};
+  readonly flag: Identifier
+}

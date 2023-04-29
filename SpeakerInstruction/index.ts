@@ -1,21 +1,21 @@
-import type { Identifier } from "../Identifier";
+import type { Identifier } from '../Identifier'
 
 /**
  * Specifies a change of speaker.
  */
-export type SpeakerInstruction = {
+export interface SpeakerInstruction {
   /**
    * Identifies the type of instruction.
    */
-  readonly type: `speaker`;
+  readonly type: 'speaker'
 
   /**
    * The line from which the instruction originates.
    */
-  readonly line: number;
+  readonly line: number
 
   /**
    * The names of the speaking characters.
    */
-  readonly characters: ReadonlyArray<Identifier>;
-};
+  readonly characters: readonly Identifier[]
+}

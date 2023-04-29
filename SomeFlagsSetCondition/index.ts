@@ -1,16 +1,16 @@
-import type { Identifier } from "../Identifier";
+import type { Identifier } from '../Identifier'
 
 /**
  * A condition which passes when at least one flag in a set is set.
  */
-export type SomeFlagsSetCondition = {
+export interface SomeFlagsSetCondition {
   /**
    * Indicates the type of condition.
    */
-  readonly type: `someFlagsSet`;
+  readonly type: 'someFlagsSet'
 
   /**
    * The names of the flags of which at least one must be set for the condition to pass.
    */
-  readonly flags: ReadonlyArray<Identifier>;
-};
+  readonly flags: readonly Identifier[]
+}

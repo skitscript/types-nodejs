@@ -1,9 +1,9 @@
-import type { EveryFlagClearCondition } from "../EveryFlagClearCondition";
-import type { EveryFlagSetCondition } from "../EveryFlagSetCondition";
-import type { FlagClearCondition } from "../FlagClearCondition";
-import type { FlagSetCondition } from "../FlagSetCondition";
-import type { SomeFlagsClearCondition } from "../SomeFlagsClearCondition";
-import type { SomeFlagsSetCondition } from "../SomeFlagsSetCondition";
+import type { EveryFlagClearCondition } from '../EveryFlagClearCondition'
+import type { EveryFlagSetCondition } from '../EveryFlagSetCondition'
+import type { FlagClearCondition } from '../FlagClearCondition'
+import type { FlagSetCondition } from '../FlagSetCondition'
+import type { SomeFlagsClearCondition } from '../SomeFlagsClearCondition'
+import type { SomeFlagsSetCondition } from '../SomeFlagsSetCondition'
 
 /**
  * Represents a condition which must pass for the containing instruction to be
@@ -15,4 +15,4 @@ export type Condition =
   | FlagClearCondition
   | FlagSetCondition
   | SomeFlagsClearCondition
-  | SomeFlagsSetCondition;
+  | SomeFlagsSetCondition

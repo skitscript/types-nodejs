@@ -1,21 +1,21 @@
-import type { Formatted } from "../Formatted";
+import type { Formatted } from '../Formatted'
 
 /**
  * Specifies that a line of dialog is to be shown.
  */
-export type LineInstruction = {
+export interface LineInstruction {
   /**
    * Identifies the type of instruction.
    */
-  readonly type: `line`;
+  readonly type: 'line'
 
   /**
    * The line from which the instruction originates.
    */
-  readonly line: number;
+  readonly line: number
 
   /**
    * The content of the line.
    */
-  readonly content: Formatted;
-};
+  readonly content: Formatted
+}

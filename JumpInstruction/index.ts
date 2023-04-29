@@ -1,33 +1,33 @@
-import type { Condition } from "../Condition";
-import type { Identifier } from "../Identifier";
+import type { Condition } from '../Condition'
+import type { Identifier } from '../Identifier'
 
 /**
  * Specifies that the interpreter is to jump to a label.
  */
-export type JumpInstruction = {
+export interface JumpInstruction {
   /**
    * Identifies the type of instruction.
    */
-  readonly type: `jump`;
+  readonly type: 'jump'
 
   /**
    * The line from which the instruction originates.
    */
-  readonly line: number;
+  readonly line: number
 
   /**
    * The name of the label to which to jump.
    */
-  readonly label: Identifier;
+  readonly label: Identifier
 
   /**
    * The instruction index to which to jump.
    */
-  readonly instructionIndex: number;
+  readonly instructionIndex: number
 
   /**
    * The condition which must be met for the jump to occur; when null, the jump
    * is unconditional.
    */
-  readonly condition: null | Condition;
-};
+  readonly condition: null | Condition
+}
