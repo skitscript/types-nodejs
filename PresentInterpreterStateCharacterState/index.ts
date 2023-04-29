@@ -1,9 +1,9 @@
 /**
  * A character is currently visible, and is not animating.
  */
-export type PresentInterpreterStateCharacterState = {
+export interface PresentInterpreterStateCharacterState {
   /**
    * Identifies the type of character state.
    */
-  readonly type: `present`;
-};
+  readonly type: 'present'
+}

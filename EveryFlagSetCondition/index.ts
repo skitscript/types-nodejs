@@ -1,16 +1,16 @@
-import type { Identifier } from "../Identifier";
+import type { Identifier } from '../Identifier'
 
 /**
  * A condition which passes when all flags in a set are set.
  */
-export type EveryFlagSetCondition = {
+export interface EveryFlagSetCondition {
   /**
    * Indicates the type of condition.
    */
-  readonly type: `everyFlagSet`;
+  readonly type: 'everyFlagSet'
 
   /**
    * The names of the flags which must be set for the condition to pass.
    */
-  readonly flags: ReadonlyArray<Identifier>;
-};
+  readonly flags: readonly Identifier[]
+}

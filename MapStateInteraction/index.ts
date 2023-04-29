@@ -1,5 +1,5 @@
-import type { DismissMapStateInteraction } from "../DismissMapStateInteraction";
-import type { MenuMapStateInteraction } from "../MenuMapStateInteraction";
+import type { DismissMapStateInteraction } from '../DismissMapStateInteraction'
+import type { MenuMapStateInteraction } from '../MenuMapStateInteraction'
 
 /**
  * Describes how the user interacts with a state within the result of mapping a
@@ -7,4 +7,4 @@ import type { MenuMapStateInteraction } from "../MenuMapStateInteraction";
  */
 export type MapStateInteraction =
   | DismissMapStateInteraction
-  | MenuMapStateInteraction;
+  | MenuMapStateInteraction
