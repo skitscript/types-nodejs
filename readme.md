@@ -179,8 +179,3 @@ import { Document } from "@skitscript/types-nodejs";
 
 - [InfiniteLoopMapError](./InfiniteLoopMapError/index.ts)
 - [MapError](./MapError/index.ts)
-
-## Archives
-
-- [Archive](./Archive/index.ts)
-- [File](./File/index.ts)
