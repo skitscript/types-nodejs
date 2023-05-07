@@ -29,7 +29,7 @@ export interface WebCharacter {
      */
     readonly content: {
       /**
-       * The emotes within the element.
+       * The emotes within the element.  The order must be retained.  May be empty.
        */
       readonly emotes: readonly WebEmote[]
     }
