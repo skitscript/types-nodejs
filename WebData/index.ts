@@ -12,9 +12,9 @@ export interface WebData {
   readonly css: string
 
   /**
-   * The JavaScript to include within a <script> element somewhere on the page.  May be empty.
+   * The Javascript to include within a <script> element somewhere on the page.  May be empty.
    */
-  readonly javaScript: string
+  readonly javascript: string
 
   /**
    * The states to include in the HTML document.  The order must be retained.  May be empty.
