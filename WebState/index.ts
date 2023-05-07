@@ -25,17 +25,17 @@ export interface WebState {
      */
     readonly content: {
       /**
-       * The HTML to display in the element to represent the line; when null, nothing is being said.
+       * The HTML to display in the element to represent the line.  May be empty, in which case, there is no line.
        */
       readonly lineHtml: string
 
       /**
-       * The speakers of line; when empty, nobody is speaking the line.
+       * The speakers of line; when empty, nobody is speaking the line.  Order must be retained.
        */
       readonly speakers: readonly WebSpeaker[]
 
       /**
-       * The options to present; when empty, no menu/options are to be shown.
+       * The options to present; when empty, no menu/options are to be shown.  Order must be retained.
        */
       readonly options: readonly WebOption[]
     }

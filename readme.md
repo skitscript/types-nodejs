@@ -189,6 +189,7 @@ import { Document } from "@skitscript/types-nodejs";
 
 - [WebBackground](./WebBackground/index.ts)
 - [WebCharacter](./WebCharacter/index.ts)
+- [WebData](./WebData/index.ts)
 - [WebElementAttributes](./WebElementAttributes/index.ts)
 - [WebEmote](./WebEmote/index.ts)
 - [WebImage](./WebImage/index.ts)
