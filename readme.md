@@ -179,3 +179,19 @@ import { Document } from "@skitscript/types-nodejs";
 
 - [InfiniteLoopMapError](./InfiniteLoopMapError/index.ts)
 - [MapError](./MapError/index.ts)
+
+#### Tooling
+
+- [FileSystem](./FileSystem/index.ts)
+- [Path](./Path/index.ts)
+
+#### Web Templating
+
+- [WebBackground](./WebBackground/index.ts)
+- [WebCharacter](./WebCharacter/index.ts)
+- [WebElementAttributes](./WebElementAttributes/index.ts)
+- [WebEmote](./WebEmote/index.ts)
+- [WebImage](./WebImage/index.ts)
+- [WebOption](./WebOption/index.ts)
+- [WebSpeaker](./WebSpeaker/index.ts)
+- [WebState](./WebState/index.ts)
