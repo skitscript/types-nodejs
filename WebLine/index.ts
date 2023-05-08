@@ -1,14 +1,14 @@
 import { type WebElementAttributes } from '../WebElementAttributes'
 
 /**
- * Describes an option within a menu of a state to a web template.
+ * Describes the line of a state to a web template.
  */
-export interface WebOption {
+export interface WebLine {
   readonly element: {
     /**
      * The tag name of the element.
      */
-    readonly tagName: 'button' | 'a'
+    readonly tagName: 'pre'
 
     /**
      * The attributes to include in the element.
@@ -16,7 +16,7 @@ export interface WebOption {
     readonly attributes: WebElementAttributes
 
     /**
-     * The HTML to display in the element to represent the label.
+     * The HTML to display in the element to represent the line.
      */
     readonly content: string
   }

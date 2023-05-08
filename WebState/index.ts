@@ -1,6 +1,7 @@
 import { type WebElementAttributes } from '../WebElementAttributes'
-import { type WebOption } from '../WebOption'
-import { type WebSpeaker } from '../WebSpeaker'
+import { type WebLine } from '../WebLine'
+import { type WebMenu } from '../WebMenu'
+import { type WebSpeakers } from '../WebSpeakers'
 
 /**
  * Describes a state to a web template.
@@ -25,19 +26,19 @@ export interface WebState {
      */
     readonly content: {
       /**
-       * The HTML to display in the element to represent the line.  May be empty, in which case, there is no line.
+       * Describes the speakers of the line/menu, if any, otherwise, null.
        */
-      readonly lineHtml: string
+      readonly speakers: null | WebSpeakers
 
       /**
-       * The speakers of line; when empty, nobody is speaking the line.  Order must be retained.
+       * Describes the line itself, if any, otherwise, null.
        */
-      readonly speakers: readonly WebSpeaker[]
+      readonly line: null | WebLine
 
       /**
-       * The options to present; when empty, no menu/options are to be shown.  Order must be retained.
+       * Describes the menu shown, if any, otherwise, null.
        */
-      readonly options: readonly WebOption[]
+      readonly menu: null | WebMenu
     }
   }
 }

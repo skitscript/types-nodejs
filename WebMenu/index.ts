@@ -1,14 +1,15 @@
 import { type WebElementAttributes } from '../WebElementAttributes'
+import { type WebOption } from '../WebOption'
 
 /**
- * Describes an option within a menu of a state to a web template.
+ * Describes a menu within a state to a web template.
  */
-export interface WebOption {
+export interface WebMenu {
   readonly element: {
     /**
      * The tag name of the element.
      */
-    readonly tagName: 'button' | 'a'
+    readonly tagName: 'div'
 
     /**
      * The attributes to include in the element.
@@ -16,8 +17,8 @@ export interface WebOption {
     readonly attributes: WebElementAttributes
 
     /**
-     * The HTML to display in the element to represent the label.
+     * The options to display within the menu.
      */
-    readonly content: string
+    readonly content: readonly WebOption[]
   }
 }
