@@ -1,5 +1,11 @@
 # Skitscript Types (NodeJS) [![License](https://img.shields.io/github/license/skitscript/types-nodejs.svg)](https://github.com/skitscript/types-nodejs/blob/master/license) [![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovatebot.com/) [![npm](https://img.shields.io/npm/v/@skitscript/types-nodejs.svg)](https://www.npmjs.com/package/@skitscript/types-nodejs) [![npm type definitions](https://img.shields.io/npm/types/@skitscript/types-nodejs.svg)](https://www.npmjs.com/package/@skitscript/types-nodejs)
 
+**DEPRECATED**
+
+**All types found in this package have been moved to the packages which define**
+**their associated logic, e.g.**
+**[@skitscript/parser-nodejs](https://github.com/skitscript/parser-nodejs).**
+
 A set of Typescript types representing the entities in a Skitscript document.
 
 ## Installation
