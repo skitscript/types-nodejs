@@ -6,7 +6,7 @@ A set of Typescript types representing the entities in a Skitscript document.
 
 ### Dependencies
 
-This is a NPM package.  It targets NodeJS 16.11.1 or newer on the following
+This is a NPM package.  It targets NodeJS 20.14.0 or newer on the following
 operating systems:
 
 - Ubuntu 22.04
